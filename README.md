@@ -10,7 +10,7 @@ This Objects creates a special BoundingBox and computes some Vectors of Dimensio
 
 # Macros
 ## GridBox Array
-"Projects" a 2D Array of an Object on one of the GridBox's faces using the native "Draft::Array"
+"Projects" a 2D Array of an Object on face(s) of the GridBox's using a native "Draft::Array" and Expressions.
 
 ## GridBox Index
 Places an Object on a indexed Position in the Grid of a GridBox using native Placement with Expressions.

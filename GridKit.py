@@ -221,8 +221,7 @@ class GridBox:
 		# 2. Calculate the Grid by simple Vector component Division of obj.GridBox[...]
 		obj.GridStart = vecCompDiv(obj.GridBoxStart, obj.Pitch)
 		obj.GridEnd = vecCompDiv(obj.GridBoxEnd, obj.Pitch)
-		obj.GridSize = vecCompDiv(
-			obj.GridBoxSize, obj.Pitch) + FreeCAD.Vector([1, 1, 1])
+		obj.GridSize = vecCompDiv(obj.GridBoxSize, obj.Pitch) + FreeCAD.Vector([1, 1, 1])
 
 		obj.Length = obj.BoxSize.x
 		obj.Width = obj.BoxSize.y

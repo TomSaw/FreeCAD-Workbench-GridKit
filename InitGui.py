@@ -16,7 +16,7 @@ class GridKitWorkbench (Workbench):
 
 	def Initialize(self):
 		"""This function is executed when FreeCAD starts"""
-		import gridkit # import here all the needed files that create your FreeCAD commands
+		import GridKit # import here all the needed files that create your FreeCAD commands
 		self.list = ["GridBox", "GridBox Array", "GridBox Index"] # A list of command names created in the line above
 		self.appendToolbar("GridKit",self.list) # creates a new toolbar with your commands
 		self.appendMenu("GridKit",self.list) # creates a new menu
